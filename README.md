@@ -1,1 +1,0 @@
-<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiN2UyMGJmMGYtYzY4NS00ODVmLThkZTQtNWUwOWIwMmZiNmYzIiwidCI6IjlmNzU5OWFlLWI4YmYtNDAzZS1iNDQ4LTBiMGRmMzBkODQ3NyJ9" frameborder="0" allowFullScreen="true"></iframe>
