@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Custom tooltip</title>
+	<meta name="description" content="Blog, techincal, power bi, ms flow" />
+	<meta name="keywords" content="MS Flow, Power BI" />
+	<meta name="author" content="Adit Pandey" />
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+	<!--Fonts-->
+	<link href='https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700|Hind:400,500,300,600'
+		rel='stylesheet' type='text/css'>
+
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="../css/blogstyle.css" />
+
+</head>
+
+<body id="body" data-ng-app="contactApp">
+
+	<!--Fixed Bg Image-->
+	<div class="fixed-bg"></div>
+	<div class="fixed-bg-overlay"></div>
+	<!--/Fixed Bg Image-->
+
+	<!--Preloader-->
+	<div id="pre_load" class="preloader-it">
+		<div id="la_anim" class="la-anim-1"></div>
+	</div>
+	<!--/Preloader-->
+
+	<!--Container-->
+	<div class="container-fluid">
+		<div class="row">
+
+			<div class="col-lg-12 col-xs-12 pad-zero">
+
+				<!--Header-->
+				<header>
+					<div class="header-wrap col-lg-10 center-div">
+						<div class="float-left name">
+							<a data-scroll href="#body">
+								<span>
+									Custom/report page tooltip in Power Bi
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</header>
+				<!--/Header-->
+
+				<!--Main Content-->
+				<div id="main_content" class="content-block margin-top-150 margin-top-sm-70 margin-top-xs-50">
+
+					<!--Introduction Sec-->
+
+					<!--/Introduction Sec-->
+
+					<hr class="separater-hr" />
+
+					<!--WhatWeDo Sec-->
+					<!--/WhatWeDo Sec-->
+					<!--Skills Sec-->
+					<section id="skill_sec"  class="col-lg-10 col-md-11 col-sm-11 center-div skills-wrap  sec-pad-top sec-pad-bottom-xs">
+						<h6></h6>
+						<p class="wow fadeInUp" data-wow-duration=".4s">
+							Report page or custom tooltips in Power Bi help us display data in depth and with clearity in our tooltips allowing us to display more data in a visually appealing and interactive way.</br>
+						</br>
+						Contents of this article.
+						<ul>
+							<li>- Creating and using a report page tooltip </li>
+							<li>- Understanding the context and working of the report page tooltip</li>
+						</ul>
+					</br></br>
+					Creating and using a custom tooltip:</br>
+						Crete a new page in Power BI desktop and hide the page from the page navigation at the bottom. In the created page go to the visualizations page and in <b style="color: red;">"Page Information"</b> turn on the tooltip toggle
+						</p>
+						
+						<div class="row margin-top-40">
+							<div class="clearfix"></div>
+						
+							<div class="col-lg-10 col-md-11 col-sm-11 margin-bottom-sm">
+								<img src="images/createpage.PNG" style="height: 100%; width:100%;" />
+								<span class="progress-cat">Turn new page to tooltip page</span>
+							</div>
+						</div>
+						<p class="wow fadeInUp" data-wow-duration=".4s">
+							In the visualization pane now in the <b style="color: red;">"Page Size"</b> section select type as Tooltip page.
+						</p>
+						<div class="row margin-top-40">
+							<div class="clearfix"></div>
+						
+							<div class="col-lg-10 col-md-11 col-sm-11 margin-bottom-sm">
+								<img src="images/pagesize.PNG" style="height: 100%; width:100%;" />
+								<span class="progress-cat">Select pagesize type Tooltip</span>
+							</div>
+						</div>
+						<p class="wow fadeInUp" data-wow-duration=".4s">
+							After completing the configurations, add the visuals you need to display in the tooltip on the page. Configure the tooltip as required. You can add dates or status or as in this case we have added count of employees per gender as a barchart in the tooltip.
+
+						</p>
+						<div class="row margin-top-40">
+							<div class="clearfix"></div>
+						
+							<div class="col-lg-10 col-md-11 col-sm-11 margin-bottom-sm">
+								<img src="images/add visual.PNG" style="height: 100%; width:100%;" />
+								<span class="progress-cat">VISUAL ON TOOLTIP PAGE</span>
+							</div>
+						</div>
+						<p class="wow fadeInUp" data-wow-duration=".4s">
+							Below is the visual displaying count of data by salary grade/position with default tooltip. In the visualizations pane click on paint brush (format) visual pane. In default tooltip is the data value present in the visual, and we can add measures to display custom data, other way to do so is by adding report page tooltip. 
+						</p>
+						<div class="row margin-top-40">
+							<div class="clearfix"></div>
+						
+							<div class="col-lg-10 col-md-11 col-sm-11 margin-bottom-sm">
+								<img src="images/defaulttooltip.PNG" style="height: 100%; width:100%;" />
+								<span class="progress-cat">default tooltip on visual</span>
+							</div>
+						</div>
+						<p class="wow fadeInUp" data-wow-duration=".4s">
+							To add a tooltip select the visual you want to add a tooltip on. In the side bar select the format visualtions bar go to tooltip and add Report Page in the "Type" option and select the created tool tip page in the "Page" option.
+						</p>
+						<div class="row margin-top-40">
+							<div class="clearfix"></div>
+						
+							<div class="col-lg-10 col-md-11 col-sm-11 margin-bottom-sm">
+								<img src="images/addtooltiponvisual.PNG" style="height: 100%; width:100%;" />
+								<span class="progress-cat">How to add custom tooltip</span>
+							</div>
+						</div>
+						<p class="wow fadeInUp" data-wow-duration=".4s">
+							Once you add the tooltip you could see the custom tooltip page with data filtered in context of visual you hover on.
+						</p>
+						<div class="row margin-top-40">
+							<div class="clearfix"></div>
+						
+							<div class="col-lg-10 col-md-11 col-sm-11 margin-bottom-sm">
+								<img src="images/customtooltippreview.PNG" style="height: 100%; width:100%;" />
+								<span class="progress-cat">Custom tooltip preview</span>
+							</div>
+						</div>
+						<p class="wow fadeInUp" data-wow-duration=".4s">
+							There is one limmitation for the custom report page tooltip and that is the unresponsive nature of the tooltip. You can not interact with data inside the tooltip which may cause issue if you choose to use a table visual inside the tooltip with data not fitting inside screen and require scrolling as that is not possible in the tooltip.</br>
+							Context of filter: To use the tooltip on a visual the context is required to filter data correctly in the tooltip. For the same the data displayed in the visual and tooltip need to have a direct relation. In our case the employee gender and position are connected through Employee, so the count of employee is filtered in context of pay grade/position in the main visual first, and then the filtered data is passed to tooltip visual and from that data the count of male and female employee is displayed in the tooltip. So to use the tooltip report page make sure to have a relation to establish the filter context.
+
+						</p>
+						<p class="wow fadeInUp" data-wow-duration=".4s">
+						
+						Thank you. For any help or querry feel free to reach me at my email.
+						</p>
+						<div class="clearfix"></div>
+						
+					</section> 
+					<!--/Skills Sec-->
+
+
+
+					<!--Qualfication Sec-->
+					<!--/Qualfication Sec-->
+
+					<hr class="separater-hr" />
+
+
+
+
+
+				<hr class="separater-hr" />
+
+				<!--Contact Sec-->
+				<section id="contact_sec" class="col-lg-10 col-md-11 col-sm-11 center-div contact-wrap sec-pad">
+					<h6>contact</h6>
+					<div class="email-direct">
+						<p class="wow fadeInRight" data-wow-duration=".4s">Email me at <a
+								href="mailto:aditp7566@gmail.com">aditp7566@gmail.com</a></p>
+						<p class="wow fadeInRight" data-wow-duration=".4s"><a href="https://aditpandey.github.io">About
+								me</a></p>
+					</div>
+				</section>
+				<!--Contact Sec-->
+
+				<hr class="separater-hr" />
+
+				<!--Footer-->
+				<footer class="col-lg-10 col-md-11 col-sm-11 center-div contact-wrap  sec-pad">
+					<div class="row">
+						<div class="col-sm-6 available-wrap">
+							<!--<span class="available-pointer"></span>
+										<span class="available-tag">Available for Employment.</span>--!>
+									</div>
+									<div class="col-sm-6">
+										<div class="goto-top text-right float-right">
+											<a data-scroll href="#body">
+												<span data-hover="top">
+													top
+												</span>
+											</a>
+										</div>
+										<div class="copywrite-wrap text-right float-right">
+											<p class="copywrite"></b> Updated <b>June, 2020.</b></p>
+										</div>
+									</div>
+								</div>
+							</footer>
+							<!--/Footer-->
+
+						</div>
+						<!--/Main Content-->
+
+					</div>
+			</div></div>
+		</div>
+		<!-- /Container -->
+
+		<!-- Scripts -->
+		<script src="../js/jquery-1.12.4.min.js"></script>
+		<script src="../js/angular.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/modernizr.custom.js"></script>
+		<script src="../js/app.js"></script>
+		<script src="../js/controllers.js"></script>
+		<script src="../js/jquery.placeholder.js"></script>
+		<script src="../js/smooth-scroll.js"></script>
+		<script src="../js/countTo.js"></script>
+		<script src="../js/jQuery.appear.js"></script>
+		<script src="../js/isotope.js"></script>
+		<script src="../js/typed.js"></script>
+		<script src="../js/lightgallery-all.js"></script>
+		<script src="../js/jquery.mousewheel.min.js"></script>
+		<script src="../js/owl.carousel.min.js"></script>
+		<script src="../js/froogaloop2.min.js"></script>
+		<script src="../js/wow.min.js"></script>
+		<script src="../js/init.js"></script>
+</body>
+
+</html>
